@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MADs</string>
+    <string name="start">Start</string>
+    <string name="loginButton">LOGIN</string>
+    <string name="passwordHint">Password</string>
+    <string name="student_idHint">Student ID</string>
+    <string name="loginHeading">Login</string>
+    <string name="school_logoDesc">School Logo</string>
+</resources>
