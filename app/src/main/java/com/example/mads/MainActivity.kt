@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.widget.AppCompatButton
-import com.example.mads.MainDashboard.MainDashboard
+import com.example.mads.MainDashboard.AppLogin
 
 
 class MainActivity : AppCompatActivity() {
@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
     private var button: AppCompatButton? = null
 
     private val startApp by lazy {
-        Intent(this, MainDashboard::class.java)
+        Intent(this, AppLogin::class.java)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
