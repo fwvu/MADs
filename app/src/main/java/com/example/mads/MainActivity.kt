@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.widget.AppCompatButton
-import com.example.mads.MainDashboard.AppLogin
+import com.example.mads.LoginScreen.AppLogin
 
 
 class MainActivity : AppCompatActivity() {

@@ -1,4 +1,4 @@
-package com.example.mads.MainDashboard
+package com.example.mads.LoginScreen
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
