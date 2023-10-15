@@ -10,6 +10,7 @@ import android.widget.EditText
 import androidx.appcompat.widget.AppCompatButton
 import com.example.mads.MainDashboard.MainDashboard
 import com.example.mads.R
+import com.example.mads.models.UserData
 
 class AppLogin : AppCompatActivity() {
 
@@ -26,6 +27,10 @@ class AppLogin : AppCompatActivity() {
         button = findViewById(R.id.loginButton) as? AppCompatButton
 
         button?.setOnClickListener {
+
+            // Syntax for adding a dataClass into Intent
+            toDashboard.putExtra("userKey", UserData(studentName = "Bryan France", studentID = "s3892805"))
+
             startActivity(toDashboard)
         }
 

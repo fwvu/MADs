@@ -7,12 +7,9 @@
     <string name="loginHeading">Login</string>
     <string name="school_logoDesc">School Logo</string>
     <string name="currentTile">CURRENT</string>
-    <string name="homeTile">HOME</string>
     <string name="scheduleTile">SCHEDULE</string>
     <string name="profileTile">PROFILE</string>
     <string name="next_classHeading">NEXT CLASS</string>
     <string name="next_classBody">Unit: Mobile App Dev\nTime: 10:30am\nDate: 10/10/23</string>
-    <string name="studentName">Bryan France</string>
-    <string name="studentID">s3892805</string>
     <string name="courseTile">COURSES</string>
 </resources>
